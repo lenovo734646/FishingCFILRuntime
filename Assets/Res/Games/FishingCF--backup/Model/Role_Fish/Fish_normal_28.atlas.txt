@@ -1,0 +1,97 @@
+
+Fish_normal_28.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+27D_round
+  rotate: false
+  xy: 2, 580
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_01
+  rotate: false
+  xy: 2, 291
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_02
+  rotate: false
+  xy: 282, 580
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_03
+  rotate: false
+  xy: 2, 2
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_04
+  rotate: false
+  xy: 282, 291
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_05
+  rotate: false
+  xy: 562, 580
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_06
+  rotate: false
+  xy: 282, 2
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_07
+  rotate: false
+  xy: 562, 291
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_08
+  rotate: false
+  xy: 842, 580
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_09
+  rotate: false
+  xy: 562, 2
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_10
+  rotate: false
+  xy: 842, 291
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_11
+  rotate: false
+  xy: 1122, 580
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+2_12
+  rotate: false
+  xy: 842, 2
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,10 @@
+[
+  {"Id":1,"ActiveType":1,"NeedActive":30,"Rewards":"[[0,1,2]]"},
+  {"Id":2,"ActiveType":1,"NeedActive":60,"Rewards":"[[0,2,2000]]"},
+  {"Id":3,"ActiveType":1,"NeedActive":90,"Rewards":"[[0,2,5000]]"},
+  {"Id":4,"ActiveType":1,"NeedActive":120,"Rewards":"[[0,2,10000]]"},
+  {"Id":5,"ActiveType":2,"NeedActive":30,"Rewards":"[[0,2,50000]]"},
+  {"Id":6,"ActiveType":2,"NeedActive":60,"Rewards":"[[0,1,10]]"},
+  {"Id":7,"ActiveType":2,"NeedActive":90,"Rewards":"[[0,1,20]]"},
+  {"Id":8,"ActiveType":2,"NeedActive":120,"Rewards":"[[0,2,100000]]"}
+]

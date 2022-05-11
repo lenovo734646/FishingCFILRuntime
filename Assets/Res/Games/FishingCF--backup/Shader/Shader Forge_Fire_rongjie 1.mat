@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Shader Forge_Fire_rongjie 1
+  m_Shader: {fileID: 4800000, guid: eeaed4b082050074dbb3b47c14de39bf, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Minmap:
+        m_Texture: {fileID: 2800000, guid: 21a20ccd976acb849b4e5b6a5ac58675, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_2475:
+        m_Texture: {fileID: 2800000, guid: 2652345f5609ce145aae820ebf1e2ba2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_2995:
+        m_Texture: {fileID: 2800000, guid: 10a353523222cfd4eafa15f79f0f4293, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_572:
+        m_Texture: {fileID: 2800000, guid: cc13ffc40ad09db499be9b337c450f10, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6214:
+        m_Texture: {fileID: 2800000, guid: 179e855eca86c4149a42383d63ef887d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _node_2480: 2.97
+    - _node_95: 0.75
+    m_Colors:
+    - _node_1970: {r: 1, g: 0.5411765, b: 0, a: 1}

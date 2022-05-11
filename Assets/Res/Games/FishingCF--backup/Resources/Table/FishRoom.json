@@ -1,0 +1,7 @@
+[
+  {"Id":1,"Type":1,"RoomName":"遗迹港湾","Unlock":1,"MinGun":30,"MaxGun":300,"LimitMinCurrency":0,"OpenTime":"00:00-24:00","extraParams":"[]","ViewAngle":2},
+  {"Id":2,"Type":1,"RoomName":"海底火山","Unlock":300,"MinGun":300,"MaxGun":1000,"LimitMinCurrency":30000,"OpenTime":"00:00-24:00","extraParams":"[]","ViewAngle":1},
+  {"Id":3,"Type":1,"RoomName":"冰封领域","Unlock":1000,"MinGun":1000,"MaxGun":10000,"LimitMinCurrency":500000,"OpenTime":"00:00-24:00","extraParams":"[]","ViewAngle":1},
+  {"Id":4,"Type":2,"RoomName":"免费赛","Unlock":30,"MinGun":1,"MaxGun":1,"LimitMinCurrency":0,"OpenTime":"07:00-23:00","extraParams":"[1,3,20,1500,2,6,2000,20,[0,0,0,0,0,0,0,0,0],[]]","ViewAngle":1},
+  {"Id":5,"Type":3,"RoomName":"大奖赛","Unlock":100,"MinGun":3000,"MaxGun":10000,"LimitMinCurrency":0,"OpenTime":"07:00-23:00","extraParams":"[1,-1,100,2000,1,15,2400,100,[0,0,0,0,0,0,5,7,10],[]]","ViewAngle":1}
+]

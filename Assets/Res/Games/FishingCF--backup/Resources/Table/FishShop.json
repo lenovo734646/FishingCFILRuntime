@@ -1,0 +1,17 @@
+[
+  {"Id":1,"TipType":1,"ItemId":0,"ItemSubId":2,"Icon":"gold","Counts":6000,"CostType":1,"Price":12,"Show":1,"Send":0,"SendTimes":0,"SendItemId":0,"SendItemSubId":0,"SendNum":0},
+  {"Id":2,"TipType":1,"ItemId":0,"ItemSubId":2,"Icon":"gold","Counts":140000,"CostType":1,"Price":28,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":2,"SendNum":140000},
+  {"Id":3,"TipType":1,"ItemId":0,"ItemSubId":2,"Icon":"gold","Counts":250000,"CostType":1,"Price":50,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":2,"SendNum":250000},
+  {"Id":4,"TipType":1,"ItemId":0,"ItemSubId":2,"Icon":"gold","Counts":540000,"CostType":1,"Price":108,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":2,"SendNum":540000},
+  {"Id":5,"TipType":1,"ItemId":0,"ItemSubId":2,"Icon":"gold","Counts":1640000,"CostType":1,"Price":328,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":2,"SendNum":164000},
+  {"Id":6,"TipType":1,"ItemId":0,"ItemSubId":2,"Icon":"gold","Counts":3090000,"CostType":1,"Price":618,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":2,"SendNum":309000},
+  {"Id":7,"TipType":2,"ItemId":0,"ItemSubId":1,"Icon":"diamond","Counts":60,"CostType":1,"Price":6,"Show":1,"Send":0,"SendTimes":0,"SendItemId":0,"SendItemSubId":0,"SendNum":0},
+  {"Id":8,"TipType":2,"ItemId":0,"ItemSubId":1,"Icon":"diamond","Counts":120,"CostType":1,"Price":12,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":1,"SendNum":6},
+  {"Id":9,"TipType":2,"ItemId":0,"ItemSubId":1,"Icon":"diamond","Counts":280,"CostType":1,"Price":28,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":1,"SendNum":12},
+  {"Id":10,"TipType":2,"ItemId":0,"ItemSubId":1,"Icon":"diamond","Counts":500,"CostType":1,"Price":50,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":1,"SendNum":50},
+  {"Id":11,"TipType":2,"ItemId":0,"ItemSubId":1,"Icon":"diamond","Counts":1080,"CostType":1,"Price":108,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":1,"SendNum":108},
+  {"Id":12,"TipType":2,"ItemId":0,"ItemSubId":1,"Icon":"diamond","Counts":3280,"CostType":1,"Price":328,"Show":1,"Send":1,"SendTimes":1,"SendItemId":0,"SendItemSubId":1,"SendNum":328},
+  {"Id":13,"TipType":3,"ItemId":1,"ItemSubId":1,"Icon":"lock","Counts":200,"CostType":2,"Price":200,"Show":1,"Send":0,"SendTimes":0,"SendItemId":0,"SendItemSubId":0,"SendNum":0},
+  {"Id":14,"TipType":3,"ItemId":1,"ItemSubId":2,"Icon":"frozen","Counts":200,"CostType":2,"Price":200,"Show":1,"Send":0,"SendTimes":0,"SendItemId":0,"SendItemSubId":0,"SendNum":0},
+  {"Id":15,"TipType":3,"ItemId":1,"ItemSubId":3,"Icon":"summon","Counts":200,"CostType":2,"Price":200,"Show":1,"Send":0,"SendTimes":0,"SendItemId":0,"SendItemSubId":0,"SendNum":0}
+]

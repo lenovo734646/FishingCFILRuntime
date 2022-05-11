@@ -1,0 +1,9 @@
+[
+  {"Id":1,"NeedCurrencyCost":888000,"Rewards":"[0,2,200000]"},
+  {"Id":2,"NeedCurrencyCost":10000000,"Rewards":"[0,2,500000]"},
+  {"Id":3,"NeedCurrencyCost":30000000,"Rewards":"[0,2,1000000]"},
+  {"Id":4,"NeedCurrencyCost":65000000,"Rewards":"[0,2,1680000]"},
+  {"Id":5,"NeedCurrencyCost":125000000,"Rewards":"[0,2,3660000]"},
+  {"Id":6,"NeedCurrencyCost":225000000,"Rewards":"[0,2,6880000]"},
+  {"Id":7,"NeedCurrencyCost":1688000000,"Rewards":"[1,9,10]"}
+]

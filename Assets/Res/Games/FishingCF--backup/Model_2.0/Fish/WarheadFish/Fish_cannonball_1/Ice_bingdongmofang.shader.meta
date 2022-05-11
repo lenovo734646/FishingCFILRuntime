@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 28462fc70326ca24a8e48ae89137fc7f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Diffuse: {fileID: 2800000, guid: d4d1b17da94cd944583445944ad24091, type: 3}
+  - _Tex_ice: {fileID: 2800000, guid: 09fc4a5ee3bc0ea4fa18bbaf8d569f76, type: 3}
+  - _mask_rgb: {fileID: 2800000, guid: cb227b7ec9530fc419da0eb9c93af734, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 2fed4e01a098125469fb998983865aef
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone005
+    100012: Bone006
+    100014: Bone007
+    100016: Bone008
+    100018: Bone009
+    100020: Bone010
+    100022: Bone011zzz002
+    100024: Bone011zzz003
+    100026: Bone011zzz004
+    100028: Bone011zzz1
+    100030: Bone011zzzzzzzzzzzzzzzzz
+    100032: Bone012
+    100034: Bone013
+    100036: Bone014
+    100038: Bone016
+    100040: Bone017
+    100042: Bone018
+    100044: Bone019
+    100046: Bone020
+    100048: Bone021
+    100050: Bone022
+    100052: Bone023
+    100054: Bone024
+    100056: Bone025
+    100058: Bone026
+    100060: Bone027
+    100062: Bone028
+    100064: Bone029
+    100066: Bone030
+    100068: Bone031
+    100070: Bone032
+    100072: Bone033
+    100074: Bone034
+    100076: Bone035
+    100078: Bone036
+    100080: Bone037
+    100082: Bone038
+    100084: Bone039
+    100086: Bone040
+    100088: Bone041
+    100090: Bone042
+    100092: Bone043
+    100094: Bone044
+    100096: Bone045
+    100098: Bone046
+    100100: Bone047
+    100102: Bone048
+    100104: Bone049
+    100106: Bone050
+    100108: Bone051
+    100110: Bone052
+    100112: Bone053
+    100114: Bone054
+    100116: Bone055
+    100118: Bone056
+    100120: Bone057
+    100122: Bone058
+    100124: Bone059
+    100126: Bone060
+    100128: Bone061
+    100130: Bone062
+    100132: Bone063
+    100134: Bone064
+    100136: Bone065
+    100138: Bone066
+    100140: Bone067
+    100142: Bone068
+    100144: Bone069
+    100146: Bone070
+    100148: Bone071
+    100150: Bone072
+    100152: Bone073
+    100154: IK Chain001
+    100156: IK Chain002
+    400000: //RootNode
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone005
+    400012: Bone006
+    400014: Bone007
+    400016: Bone008
+    400018: Bone009
+    400020: Bone010
+    400022: Bone011zzz002
+    400024: Bone011zzz003
+    400026: Bone011zzz004
+    400028: Bone011zzz1
+    400030: Bone011zzzzzzzzzzzzzzzzz
+    400032: Bone012
+    400034: Bone013
+    400036: Bone014
+    400038: Bone016
+    400040: Bone017
+    400042: Bone018
+    400044: Bone019
+    400046: Bone020
+    400048: Bone021
+    400050: Bone022
+    400052: Bone023
+    400054: Bone024
+    400056: Bone025
+    400058: Bone026
+    400060: Bone027
+    400062: Bone028
+    400064: Bone029
+    400066: Bone030
+    400068: Bone031
+    400070: Bone032
+    400072: Bone033
+    400074: Bone034
+    400076: Bone035
+    400078: Bone036
+    400080: Bone037
+    400082: Bone038
+    400084: Bone039
+    400086: Bone040
+    400088: Bone041
+    400090: Bone042
+    400092: Bone043
+    400094: Bone044
+    400096: Bone045
+    400098: Bone046
+    400100: Bone047
+    400102: Bone048
+    400104: Bone049
+    400106: Bone050
+    400108: Bone051
+    400110: Bone052
+    400112: Bone053
+    400114: Bone054
+    400116: Bone055
+    400118: Bone056
+    400120: Bone057
+    400122: Bone058
+    400124: Bone059
+    400126: Bone060
+    400128: Bone061
+    400130: Bone062
+    400132: Bone063
+    400134: Bone064
+    400136: Bone065
+    400138: Bone066
+    400140: Bone067
+    400142: Bone068
+    400144: Bone069
+    400146: Bone070
+    400148: Bone071
+    400150: Bone072
+    400152: Bone073
+    400154: IK Chain001
+    400156: IK Chain002
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

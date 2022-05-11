@@ -1,0 +1,174 @@
+
+Fish_normal_29.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_01
+  rotate: true
+  xy: 2, 856
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_02
+  rotate: true
+  xy: 489, 856
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_03
+  rotate: true
+  xy: 976, 856
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_04
+  rotate: true
+  xy: 1463, 856
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_05
+  rotate: true
+  xy: 2, 691
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_06
+  rotate: true
+  xy: 489, 691
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_07
+  rotate: true
+  xy: 976, 691
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_08
+  rotate: true
+  xy: 1463, 691
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_09
+  rotate: true
+  xy: 2, 526
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_10
+  rotate: true
+  xy: 489, 526
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_11
+  rotate: true
+  xy: 976, 526
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+2_12
+  rotate: true
+  xy: 1463, 526
+  size: 163, 485
+  orig: 163, 485
+  offset: 0, 0
+  index: -1
+boss_round_frame1
+  rotate: false
+  xy: 2, 264
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame10
+  rotate: false
+  xy: 983, 2
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame11
+  rotate: false
+  xy: 1310, 2
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame12
+  rotate: false
+  xy: 1637, 2
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame2
+  rotate: false
+  xy: 329, 264
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame3
+  rotate: false
+  xy: 656, 264
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame4
+  rotate: false
+  xy: 983, 264
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame5
+  rotate: false
+  xy: 1310, 264
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame6
+  rotate: false
+  xy: 1637, 264
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame7
+  rotate: false
+  xy: 2, 2
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame8
+  rotate: false
+  xy: 329, 2
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1
+boss_round_frame9
+  rotate: false
+  xy: 656, 2
+  size: 325, 260
+  orig: 325, 260
+  offset: 0, 0
+  index: -1

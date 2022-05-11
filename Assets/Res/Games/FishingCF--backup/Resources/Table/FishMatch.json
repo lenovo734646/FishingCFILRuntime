@@ -1,0 +1,18 @@
+[
+  {"Id":1,"MatchType":1,"RankMin":1,"RankMax":1,"ItemId":1,"ItemSubId":8,"ItemNum":5},
+  {"Id":2,"MatchType":1,"RankMin":2,"RankMax":2,"ItemId":1,"ItemSubId":8,"ItemNum":2},
+  {"Id":3,"MatchType":1,"RankMin":3,"RankMax":3,"ItemId":1,"ItemSubId":8,"ItemNum":1},
+  {"Id":4,"MatchType":1,"RankMin":4,"RankMax":10,"ItemId":0,"ItemSubId":2,"ItemNum":150000},
+  {"Id":5,"MatchType":1,"RankMin":11,"RankMax":50,"ItemId":0,"ItemSubId":2,"ItemNum":60000},
+  {"Id":6,"MatchType":1,"RankMin":50,"RankMax":100,"ItemId":0,"ItemSubId":2,"ItemNum":30000},
+  {"Id":7,"MatchType":1,"RankMin":101,"RankMax":200,"ItemId":1,"ItemSubId":1,"ItemNum":40},
+  {"Id":8,"MatchType":1,"RankMin":201,"RankMax":300,"ItemId":1,"ItemSubId":1,"ItemNum":20},
+  {"Id":9,"MatchType":2,"RankMin":1,"RankMax":1,"ItemId":1,"ItemSubId":8,"ItemNum":60},
+  {"Id":10,"MatchType":2,"RankMin":2,"RankMax":2,"ItemId":1,"ItemSubId":8,"ItemNum":30},
+  {"Id":11,"MatchType":2,"RankMin":3,"RankMax":3,"ItemId":1,"ItemSubId":8,"ItemNum":15},
+  {"Id":12,"MatchType":2,"RankMin":4,"RankMax":10,"ItemId":1,"ItemSubId":8,"ItemNum":10},
+  {"Id":13,"MatchType":2,"RankMin":11,"RankMax":50,"ItemId":1,"ItemSubId":8,"ItemNum":5},
+  {"Id":14,"MatchType":2,"RankMin":50,"RankMax":100,"ItemId":0,"ItemSubId":2,"ItemNum":1000000},
+  {"Id":15,"MatchType":2,"RankMin":101,"RankMax":200,"ItemId":0,"ItemSubId":2,"ItemNum":500000},
+  {"Id":16,"MatchType":2,"RankMin":201,"RankMax":300,"ItemId":0,"ItemSubId":1,"ItemNum":150}
+]

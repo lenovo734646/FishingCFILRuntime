@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 28262dc2299cebf4c90055336dd883d2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Diffuse: {fileID: 2800000, guid: 4a44090fd2d50624bb331c067f102852, type: 3}
+  - _Tex_ice: {fileID: 2800000, guid: 09fc4a5ee3bc0ea4fa18bbaf8d569f76, type: 3}
+  - _xiaosanmask: {fileID: 2800000, guid: f53d713c153e44346896e27a87d775a6, type: 3}
+  - _firemask: {fileID: 2800000, guid: d2eac04313013ab47a3a62a8a0e5f970, type: 3}
+  - _mask: {fileID: 2800000, guid: 27f05a5559fb1604abedf52a955aacbb, type: 3}
+  - _noise: {fileID: 2800000, guid: 9ced42e07c7b2a14fb45afeeec7e633f, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

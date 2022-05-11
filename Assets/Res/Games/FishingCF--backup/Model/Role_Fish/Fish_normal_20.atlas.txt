@@ -1,0 +1,13 @@
+
+Fish_normal_20.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ring0_0
+  rotate: false
+  xy: 2, 2
+  size: 186, 187
+  orig: 186, 187
+  offset: 0, 0
+  index: -1

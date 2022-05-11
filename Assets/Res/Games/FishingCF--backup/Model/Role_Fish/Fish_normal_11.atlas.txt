@@ -1,0 +1,90 @@
+
+Fish_normal_11.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_01
+  rotate: false
+  xy: 2, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_02
+  rotate: false
+  xy: 155, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_03
+  rotate: false
+  xy: 308, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_04
+  rotate: false
+  xy: 461, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_05
+  rotate: false
+  xy: 614, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_06
+  rotate: false
+  xy: 767, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_07
+  rotate: false
+  xy: 920, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_08
+  rotate: false
+  xy: 1073, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_09
+  rotate: false
+  xy: 1226, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_10
+  rotate: false
+  xy: 1379, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_11
+  rotate: false
+  xy: 1532, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+2_12
+  rotate: false
+  xy: 1685, 2
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1

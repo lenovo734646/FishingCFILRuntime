@@ -1,0 +1,90 @@
+
+Fish_normal_31.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_01
+  rotate: false
+  xy: 2, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_02
+  rotate: false
+  xy: 172, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_03
+  rotate: false
+  xy: 342, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_04
+  rotate: false
+  xy: 512, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_05
+  rotate: false
+  xy: 682, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_06
+  rotate: false
+  xy: 852, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_07
+  rotate: false
+  xy: 1022, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_08
+  rotate: false
+  xy: 1192, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_09
+  rotate: false
+  xy: 1362, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_10
+  rotate: false
+  xy: 1532, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_11
+  rotate: false
+  xy: 1702, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
+2_12
+  rotate: false
+  xy: 1872, 2
+  size: 168, 426
+  orig: 168, 426
+  offset: 0, 0
+  index: -1
