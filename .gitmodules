@@ -4,3 +4,6 @@
 [submodule "Hotfix/ILHotfixCommon"]
 	path = Hotfix/ILHotfixCommon
 	url = https://github.com/lenovo734646/ILHotfixCommon.git
+[submodule "Hotfix/Games/HotfixFishingCF"]
+	path = Hotfix/Games/HotfixFishingCF
+	url = https://github.com/lenovo734646/HotfixFishingCF.git
