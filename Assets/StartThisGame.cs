@@ -66,7 +66,7 @@ public class StartThisGame : MonoBehaviour
 		//如果
 		if (bridge_.Prepared() && !exit_) {
 			Progress(LanguageStartup.IsLoadingHotfixModule);
-			HotfixCaller.SetHotfixValue("autoLoginFromHost", false);
+			HotfixCaller.SetHotfixValue("autoLoginFromHost", true);
 			HotfixCaller.SetHotfixValue("defaultGameFromHost", "FishingCF");
 
 			HotfixCaller.RunGame("Hotfix.Common.AppController", "Assets/Res/Games/FishingCF/HotFixDll.json", "Assets/Res/Games/FishingCF/HotFixDll_pdb.json", show_);

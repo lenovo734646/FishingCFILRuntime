@@ -29,6 +29,10 @@ MonoBehaviour:
     m_Address: Assets/Res/Games/FishingCF/HotFixDll_pdb.json
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: c354e1e52642afb4c9b0e2e69087432a
+    m_Address: Assets/Res/Games/FishingCF/Scenes/LoginScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ef15dc6a791417c40b34caab66ae3b06, type: 2}
   m_SchemaSet:
