@@ -7,13 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Res/Games/FishingCF/Scenes/TestRun.unity
-    guid: 51670b8a54c45794faa8ec63fbd6968b
-  - enabled: 0
-    path: Assets/Res/Games/FishingCF/Scenes/LoginScene.unity
-    guid: c354e1e52642afb4c9b0e2e69087432a
-  - enabled: 1
-    path: Assets/Res/Games/FishingCF/Scenes/MainScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    guid: 4623607c05bd89848bafea0c527b2bd9
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: d93f0836ddfc59342a116053e0acec6c,
       type: 2}

@@ -29,30 +29,33 @@ namespace ILRuntime.Runtime.Generated
             args = new Type[]{typeof(System.String)};
             method = type.GetMethod("Md5Hash", flag, null, args, null);
             app.RegisterCLRMethodRedirection(method, Md5Hash_1);
+            args = new Type[]{typeof(UnityEngine.UI.Image), typeof(UnityEngine.Texture2D)};
+            method = type.GetMethod("ChangeSprite", flag, null, args, null);
+            app.RegisterCLRMethodRedirection(method, ChangeSprite_2);
             args = new Type[]{typeof(System.Object)};
             method = type.GetMethod("StopAllCor", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, StopAllCor_2);
+            app.RegisterCLRMethodRedirection(method, StopAllCor_3);
             args = new Type[]{typeof(UnityEngine.GameObject), typeof(System.String)};
             method = type.GetMethod("FindChildDeeply", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, FindChildDeeply_3);
+            app.RegisterCLRMethodRedirection(method, FindChildDeeply_4);
             args = new Type[]{typeof(UnityEngine.GameObject), typeof(System.Boolean), typeof(System.Single)};
             method = type.GetMethod("StartDoTweenAnim", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, StartDoTweenAnim_4);
+            app.RegisterCLRMethodRedirection(method, StartDoTweenAnim_5);
             args = new Type[]{typeof(UnityEngine.GameObject)};
             method = type.GetMethod("RemoveAllChildren", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, RemoveAllChildren_5);
+            app.RegisterCLRMethodRedirection(method, RemoveAllChildren_6);
             args = new Type[]{typeof(UnityEngine.GameObject), typeof(UnityEngine.GameObject)};
             method = type.GetMethod("AddChild", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, AddChild_6);
+            app.RegisterCLRMethodRedirection(method, AddChild_7);
             args = new Type[]{typeof(System.Object), typeof(System.Int32)};
             method = type.GetMethod("StopCor", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, StopCor_7);
+            app.RegisterCLRMethodRedirection(method, StopCor_8);
             args = new Type[]{typeof(UnityEngine.GameObject), typeof(System.String), typeof(System.Single), typeof(System.Boolean)};
             method = type.GetMethod("StartAnim", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, StartAnim_8);
+            app.RegisterCLRMethodRedirection(method, StartAnim_9);
             args = new Type[]{typeof(UnityEngine.GameObject)};
             method = type.GetMethod("StartParticles", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, StartParticles_9);
+            app.RegisterCLRMethodRedirection(method, StartParticles_10);
             Dictionary<string, List<MethodInfo>> genericMethods = new Dictionary<string, List<MethodInfo>>();
             List<MethodInfo> lst = null;                    
             foreach(var m in type.GetMethods())
@@ -75,7 +78,7 @@ namespace ILRuntime.Runtime.Generated
                     if(m.MatchGenericParameters(args, typeof(System.String), typeof(System.Collections.Generic.List<System.String>)))
                     {
                         method = m.MakeGenericMethod(args);
-                        app.RegisterCLRMethodRedirection(method, RandomGet_10);
+                        app.RegisterCLRMethodRedirection(method, RandomGet_11);
 
                         break;
                     }
@@ -83,7 +86,7 @@ namespace ILRuntime.Runtime.Generated
             }
             args = new Type[]{typeof(System.String), typeof(System.String)};
             method = type.GetMethod("Split", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, Split_11);
+            app.RegisterCLRMethodRedirection(method, Split_12);
 
             field = type.GetField("net", flag);
             app.RegisterCLRFieldGetter(field, get_net_0);
@@ -147,7 +150,27 @@ namespace ILRuntime.Runtime.Generated
             return ILIntepreter.PushObject(__ret, __mStack, result_of_this_method);
         }
 
-        static StackObject* StopAllCor_2(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* ChangeSprite_2(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        {
+            ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
+            StackObject* ptr_of_this_method;
+            StackObject* __ret = ILIntepreter.Minus(__esp, 2);
+
+            ptr_of_this_method = ILIntepreter.Minus(__esp, 1);
+            UnityEngine.Texture2D @texture = (UnityEngine.Texture2D)typeof(UnityEngine.Texture2D).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack), (CLR.Utils.Extensions.TypeFlags)0);
+            __intp.Free(ptr_of_this_method);
+
+            ptr_of_this_method = ILIntepreter.Minus(__esp, 2);
+            UnityEngine.UI.Image @img = (UnityEngine.UI.Image)typeof(UnityEngine.UI.Image).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack), (CLR.Utils.Extensions.TypeFlags)0);
+            __intp.Free(ptr_of_this_method);
+
+
+            AssemblyCommon.Globals.ChangeSprite(@img, @texture);
+
+            return __ret;
+        }
+
+        static StackObject* StopAllCor_3(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -163,7 +186,7 @@ namespace ILRuntime.Runtime.Generated
             return __ret;
         }
 
-        static StackObject* FindChildDeeply_3(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* FindChildDeeply_4(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -183,7 +206,7 @@ namespace ILRuntime.Runtime.Generated
             return ILIntepreter.PushObject(__ret, __mStack, result_of_this_method);
         }
 
-        static StackObject* StartDoTweenAnim_4(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* StartDoTweenAnim_5(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -205,7 +228,7 @@ namespace ILRuntime.Runtime.Generated
             return __ret;
         }
 
-        static StackObject* RemoveAllChildren_5(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* RemoveAllChildren_6(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -221,7 +244,7 @@ namespace ILRuntime.Runtime.Generated
             return __ret;
         }
 
-        static StackObject* AddChild_6(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* AddChild_7(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -241,7 +264,7 @@ namespace ILRuntime.Runtime.Generated
             return __ret;
         }
 
-        static StackObject* StopCor_7(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* StopCor_8(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -260,7 +283,7 @@ namespace ILRuntime.Runtime.Generated
             return __ret;
         }
 
-        static StackObject* StartAnim_8(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* StartAnim_9(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -288,7 +311,7 @@ namespace ILRuntime.Runtime.Generated
             return __ret + 1;
         }
 
-        static StackObject* StartParticles_9(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* StartParticles_10(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -304,7 +327,7 @@ namespace ILRuntime.Runtime.Generated
             return __ret;
         }
 
-        static StackObject* RandomGet_10(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* RandomGet_11(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -320,7 +343,7 @@ namespace ILRuntime.Runtime.Generated
             return ILIntepreter.PushObject(__ret, __mStack, result_of_this_method);
         }
 
-        static StackObject* Split_11(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* Split_12(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;

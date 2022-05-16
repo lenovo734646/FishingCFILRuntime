@@ -309,6 +309,7 @@
     <Content Include="Hotfix\ILHotfixCommon\.gitignore" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hotfix\Games\HotfixFishingCF\ViewFishingScene.cs" />
     <Compile Include="Hotfix\ILHotfixCommon\AccountInfo.cs" />
     <Compile Include="Hotfix\ILHotfixCommon\AppBase.cs" />
     <Compile Include="Hotfix\ILHotfixCommon\AppController.cs" />
@@ -332,7 +333,7 @@
     <Compile Include="Hotfix\ILHotfixCommon\view\ViewLoading.cs" />
     <Compile Include="Hotfix\ILHotfixCommon\view\ViewPopup.cs" />
     <Compile Include="Hotfix\ILHotfixCommon\view\ViewToast.cs" />
-    <Compile Include="Hotfix\Games\HotfixFishingCF\AddrKeys.cs" />
+    <Compile Include="Hotfix\Games\HotfixFishingCF\GlobalKeys.cs" />
     <Compile Include="Hotfix\Games\HotfixFishingCF\GameController.cs" />
     <Compile Include="Hotfix\Games\HotfixFishingCF\Language.cs" />
     <Compile Include="Hotfix\Games\HotfixFishingCF\MyApp.cs" />
