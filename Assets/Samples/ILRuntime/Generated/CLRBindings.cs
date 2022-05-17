@@ -118,14 +118,17 @@ namespace ILRuntime.Runtime.Generated
             System_WeakReference_1_ILRuntimeCrossbindAdapter_ControllerBaseAdapter_Binding_Adapter_Binding.Register(app);
             System_Action_Binding.Register(app);
             AssemblyCommon_Co_Binding.Register(app);
+            UnityEngine_Transform_Binding.Register(app);
+            UnityEngine_Component_Binding.Register(app);
             DG_Tweening_ShortcutExtensions_Binding.Register(app);
+            UnityEngine_Events_UnityEventBase_Binding.Register(app);
+            MiniJSON_Binding.Register(app);
             UnityEngine_Debug_Binding.Register(app);
             TMPro_TMP_Text_Binding.Register(app);
             System_Collections_Generic_Dictionary_2_Int32_Int32_Binding.Register(app);
             AssemblyCommon_AddressablesLoader_Binding_LoadTask_1_Material_Binding.Register(app);
             UnityEngine_Renderer_Binding.Register(app);
             System_Collections_Generic_List_1_String_Binding.Register(app);
-            UnityEngine_Transform_Binding.Register(app);
             UnityEngine_Vector3_Binding.Register(app);
             DG_Tweening_TweenExtensions_Binding.Register(app);
             System_Collections_Generic_Dictionary_2_Int32_ILTypeInstance_Binding.Register(app);

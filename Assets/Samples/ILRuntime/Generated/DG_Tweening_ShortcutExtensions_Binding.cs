@@ -23,8 +23,8 @@ namespace ILRuntime.Runtime.Generated
             Type[] args;
             Type type = typeof(DG.Tweening.ShortcutExtensions);
             args = new Type[]{typeof(UnityEngine.Transform), typeof(System.Single), typeof(System.Single), typeof(System.Boolean)};
-            method = type.GetMethod("DOMoveX", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, DOMoveX_0);
+            method = type.GetMethod("DOLocalMoveX", flag, null, args, null);
+            app.RegisterCLRMethodRedirection(method, DOLocalMoveX_0);
             args = new Type[]{typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3), typeof(System.Single), typeof(DG.Tweening.AxisConstraint), typeof(System.Nullable<UnityEngine.Vector3>)};
             method = type.GetMethod("DOLookAt", flag, null, args, null);
             app.RegisterCLRMethodRedirection(method, DOLookAt_1);
@@ -42,7 +42,7 @@ namespace ILRuntime.Runtime.Generated
         }
 
 
-        static StackObject* DOMoveX_0(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* DOLocalMoveX_0(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -62,7 +62,7 @@ namespace ILRuntime.Runtime.Generated
             __intp.Free(ptr_of_this_method);
 
 
-            var result_of_this_method = DG.Tweening.ShortcutExtensions.DOMoveX(@target, @endValue, @duration, @snapping);
+            var result_of_this_method = DG.Tweening.ShortcutExtensions.DOLocalMoveX(@target, @endValue, @duration, @snapping);
 
             return ILIntepreter.PushObject(__ret, __mStack, result_of_this_method);
         }

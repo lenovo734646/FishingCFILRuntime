@@ -110,6 +110,20 @@ namespace ILRuntime.Runtime.Generated
                     }
                 }
             }
+            args = new Type[]{typeof(UnityEngine.TextAsset)};
+            if (genericMethods.TryGetValue("LoadAsync", out lst))
+            {
+                foreach(var m in lst)
+                {
+                    if(m.MatchGenericParameters(args, typeof(void), typeof(System.String), typeof(System.Action<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.TextAsset>>), typeof(AssemblyCommon.IShowDownloadProgress), typeof(System.String)))
+                    {
+                        method = m.MakeGenericMethod(args);
+                        app.RegisterCLRMethodRedirection(method, LoadAsync_6);
+
+                        break;
+                    }
+                }
+            }
             args = new Type[]{typeof(UnityEngine.Material)};
             if (genericMethods.TryGetValue("LoadAsync", out lst))
             {
@@ -118,7 +132,7 @@ namespace ILRuntime.Runtime.Generated
                     if(m.MatchGenericParameters(args, typeof(void), typeof(System.String), typeof(System.Action<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.Material>>), typeof(AssemblyCommon.IShowDownloadProgress), typeof(System.String)))
                     {
                         method = m.MakeGenericMethod(args);
-                        app.RegisterCLRMethodRedirection(method, LoadAsync_6);
+                        app.RegisterCLRMethodRedirection(method, LoadAsync_7);
 
                         break;
                     }
@@ -132,7 +146,7 @@ namespace ILRuntime.Runtime.Generated
                     if(m.MatchGenericParameters(args, typeof(System.Collections.Generic.IEnumerator<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.GameObject>>), typeof(System.String), typeof(AssemblyCommon.IShowDownloadProgress), typeof(System.String)))
                     {
                         method = m.MakeGenericMethod(args);
-                        app.RegisterCLRMethodRedirection(method, LoadAsync_7);
+                        app.RegisterCLRMethodRedirection(method, LoadAsync_8);
 
                         break;
                     }
@@ -140,7 +154,7 @@ namespace ILRuntime.Runtime.Generated
             }
             args = new Type[]{typeof(System.Single)};
             method = type.GetMethod("WaitForAllTaskCompletion", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, WaitForAllTaskCompletion_8);
+            app.RegisterCLRMethodRedirection(method, WaitForAllTaskCompletion_9);
 
             field = type.GetField("usingUpdateUrl", flag);
             app.RegisterCLRFieldGetter(field, get_usingUpdateUrl_0);
@@ -339,6 +353,37 @@ namespace ILRuntime.Runtime.Generated
             __intp.Free(ptr_of_this_method);
 
             ptr_of_this_method = ILIntepreter.Minus(__esp, 3);
+            System.Action<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.TextAsset>> @callback = (System.Action<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.TextAsset>>)typeof(System.Action<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.TextAsset>>).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack), (CLR.Utils.Extensions.TypeFlags)8);
+            __intp.Free(ptr_of_this_method);
+
+            ptr_of_this_method = ILIntepreter.Minus(__esp, 4);
+            System.String @path = (System.String)typeof(System.String).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack), (CLR.Utils.Extensions.TypeFlags)0);
+            __intp.Free(ptr_of_this_method);
+
+            ptr_of_this_method = ILIntepreter.Minus(__esp, 5);
+            AssemblyCommon.AddressablesLoader instance_of_this_method = (AssemblyCommon.AddressablesLoader)typeof(AssemblyCommon.AddressablesLoader).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack), (CLR.Utils.Extensions.TypeFlags)0);
+            __intp.Free(ptr_of_this_method);
+
+            instance_of_this_method.LoadAsync<UnityEngine.TextAsset>(@path, @callback, @ip, @data);
+
+            return __ret;
+        }
+
+        static StackObject* LoadAsync_7(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        {
+            ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
+            StackObject* ptr_of_this_method;
+            StackObject* __ret = ILIntepreter.Minus(__esp, 5);
+
+            ptr_of_this_method = ILIntepreter.Minus(__esp, 1);
+            System.String @data = (System.String)typeof(System.String).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack), (CLR.Utils.Extensions.TypeFlags)0);
+            __intp.Free(ptr_of_this_method);
+
+            ptr_of_this_method = ILIntepreter.Minus(__esp, 2);
+            AssemblyCommon.IShowDownloadProgress @ip = (AssemblyCommon.IShowDownloadProgress)typeof(AssemblyCommon.IShowDownloadProgress).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack), (CLR.Utils.Extensions.TypeFlags)0);
+            __intp.Free(ptr_of_this_method);
+
+            ptr_of_this_method = ILIntepreter.Minus(__esp, 3);
             System.Action<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.Material>> @callback = (System.Action<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.Material>>)typeof(System.Action<AssemblyCommon.AddressablesLoader.LoadTask<UnityEngine.Material>>).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack), (CLR.Utils.Extensions.TypeFlags)8);
             __intp.Free(ptr_of_this_method);
 
@@ -355,7 +400,7 @@ namespace ILRuntime.Runtime.Generated
             return __ret;
         }
 
-        static StackObject* LoadAsync_7(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* LoadAsync_8(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
@@ -387,7 +432,7 @@ namespace ILRuntime.Runtime.Generated
             return ILIntepreter.PushObject(__ret, __mStack, result_of_this_method);
         }
 
-        static StackObject* WaitForAllTaskCompletion_8(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* WaitForAllTaskCompletion_9(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* ptr_of_this_method;
