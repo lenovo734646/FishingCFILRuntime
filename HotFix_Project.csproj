@@ -313,6 +313,7 @@
     <Content Include="Hotfix\ILHotfixCommon\.gitignore" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hotfix\Games\HotfixFishingCF\Table\LanguageErrcode.cs" />
     <Compile Include="Hotfix\Games\HotfixFishingCF\ViewFishingScene.cs" />
     <Compile Include="Hotfix\ILHotfixCommon\AccountInfo.cs" />
     <Compile Include="Hotfix\ILHotfixCommon\AppBase.cs" />
