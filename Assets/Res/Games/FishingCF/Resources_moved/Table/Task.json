@@ -1,0 +1,14 @@
+[
+  {"Id":1,"TaskName":"DailyTask_01","Description":"每日签到一次","TaskType":1,"Kind":1,"NeedNum":1,"Rewards":"[[0,1,2]]","Active":15},
+  {"Id":2,"TaskName":"DailyTask_02","Description":"每日捕鱼获得20000金币","TaskType":1,"Kind":2,"NeedNum":20000,"Rewards":"[[0,2,1000]]","Active":20},
+  {"Id":3,"TaskName":"DailyTask_03","Description":"每日击杀5条黄金鲨鱼","TaskType":1,"Kind":3,"NeedNum":5,"Rewards":"[[0,2,1000]]","Active":20},
+  {"Id":4,"TaskName":"DailyTask_04","Description":"每日击杀任意鱼200条","TaskType":1,"Kind":4,"NeedNum":200,"Rewards":"[[0,2,1000]]","Active":25},
+  {"Id":5,"TaskName":"DailyTask_05","Description":"每日参加1次免费赛","TaskType":1,"Kind":5,"NeedNum":1,"Rewards":"[[0,2,1000]]","Active":20},
+  {"Id":6,"TaskName":"DailyTask_06","Description":"每日完成1次游戏内抽奖","TaskType":1,"Kind":6,"NeedNum":1,"Rewards":"[[0,1,5]]","Active":20},
+  {"Id":7,"TaskName":"DailyTask_07","Description":"每周签到5次","TaskType":2,"Kind":1,"NeedNum":5,"Rewards":"[[0,1,2]]","Active":25},
+  {"Id":8,"TaskName":"DailyTask_08","Description":"每周捕鱼获得3000000金币","TaskType":2,"Kind":2,"NeedNum":3000000,"Rewards":"[[0,2,1000]]","Active":15},
+  {"Id":9,"TaskName":"DailyTask_09","Description":"每周击杀50条黄金鲨鱼","TaskType":2,"Kind":3,"NeedNum":50,"Rewards":"[[0,2,1000]]","Active":15},
+  {"Id":10,"TaskName":"DailyTask_10","Description":"每周击杀任意鱼3000条","TaskType":2,"Kind":4,"NeedNum":3000,"Rewards":"[[0,2,1000]]","Active":30},
+  {"Id":11,"TaskName":"DailyTask_11","Description":"每周累计5天参加免费赛","TaskType":2,"Kind":5,"NeedNum":5,"Rewards":"[[0,2,1000]]","Active":20},
+  {"Id":12,"TaskName":"DailyTask_12","Description":"每周累计5天进行奖池抽奖","TaskType":2,"Kind":6,"NeedNum":5,"Rewards":"[[0,1,5]]","Active":30}
+]

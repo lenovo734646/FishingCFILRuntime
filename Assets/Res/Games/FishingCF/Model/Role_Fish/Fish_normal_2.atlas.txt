@@ -1,0 +1,90 @@
+
+Fish_normal_2.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_01
+  rotate: false
+  xy: 2, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_02
+  rotate: false
+  xy: 41, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_03
+  rotate: false
+  xy: 80, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_04
+  rotate: false
+  xy: 119, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_05
+  rotate: false
+  xy: 158, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_06
+  rotate: false
+  xy: 197, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_07
+  rotate: false
+  xy: 236, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_08
+  rotate: false
+  xy: 275, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_09
+  rotate: false
+  xy: 314, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_10
+  rotate: false
+  xy: 353, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_11
+  rotate: false
+  xy: 392, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+1_12
+  rotate: false
+  xy: 431, 2
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1

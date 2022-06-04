@@ -6,17 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Res/Games/SLWH/Scenes/LoginScene.unity
-    guid: d7b287eeb337687439eb8b67ebd4e771
-  - enabled: 1
-    path: Assets/Res/Games/SLWH/Scenes/RoomSelectScene.unity
-    guid: 4b33e596d1d7f284689c9cfa3c66e736
-  - enabled: 0
-    path: Assets/Res/Games/SLWH/Scenes/LoadingScene.unity
-    guid: c0a9df68dcaa7f64f9dce4056c895d6c
-  - enabled: 0
-    path: Assets/Res/Games/SLWH/Scenes/MainScene.unity
-    guid: 0baefefa904a0f742a4acd15af1e5376
+    path: Assets/Res/Games/FishingCF/Scenes/TestRun.unity
+    guid: 4623607c05bd89848bafea0c527b2bd9
   m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: 11319c4aeb453f245b86d13da351c15b,
+    com.unity.addressableassets: {fileID: 11400000, guid: d93f0836ddfc59342a116053e0acec6c,
       type: 2}

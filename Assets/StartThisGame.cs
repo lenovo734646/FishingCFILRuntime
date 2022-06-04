@@ -66,8 +66,11 @@ public class StartThisGame : MonoBehaviour
 		//如果
 		if (bridge_.Prepared() && !exit_) {
 			Progress(LanguageStartup.IsLoadingHotfixModule);
-			HotfixCaller.SetHotfixValue("defaultGameFromHost", "SLWH");
-			HotfixCaller.RunGame("Hotfix.Common.AppController", "Assets/Res/Games/SLWH/HotFixDll.json", "Assets/Res/Games/SLWH/HotFixDll_pdb.json", show_);
+			HotfixCaller.SetHotfixValue("autoLoginFromHost", true);
+			HotfixCaller.SetHotfixValue("disableNetwork", true);
+			HotfixCaller.SetHotfixValue("defaultGameFromHost", "FishingCF");
+
+			HotfixCaller.RunGame("Hotfix.Common.AppController", "Assets/Res/Games/FishingCF/HotFixDll.json", "Assets/Res/Games/FishingCF/HotFixDll_pdb.json", show_);
 			//解开循环引用
 			show_ = null;
 			//删除本组件,用不着了

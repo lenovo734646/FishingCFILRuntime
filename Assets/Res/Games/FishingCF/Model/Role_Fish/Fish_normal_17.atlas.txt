@@ -1,0 +1,90 @@
+
+Fish_normal_17.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_01
+  rotate: true
+  xy: 2, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_02
+  rotate: true
+  xy: 147, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_03
+  rotate: true
+  xy: 292, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_04
+  rotate: true
+  xy: 437, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_05
+  rotate: true
+  xy: 582, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_06
+  rotate: true
+  xy: 727, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_07
+  rotate: true
+  xy: 872, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_08
+  rotate: true
+  xy: 1017, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_09
+  rotate: true
+  xy: 1162, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_10
+  rotate: true
+  xy: 1307, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_11
+  rotate: true
+  xy: 1452, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+2_12
+  rotate: true
+  xy: 1597, 2
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1

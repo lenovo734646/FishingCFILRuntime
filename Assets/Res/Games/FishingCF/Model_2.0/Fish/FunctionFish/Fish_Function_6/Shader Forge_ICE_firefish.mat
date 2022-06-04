@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Shader Forge_ICE_firefish
+  m_Shader: {fileID: 4800000, guid: 28262dc2299cebf4c90055336dd883d2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: ae6f6a06d66956e4e8ad3e1d8e56e7f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_ice:
+        m_Texture: {fileID: 2800000, guid: 91e923f112aa54046a468b2e697cdfb7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _firemask:
+        m_Texture: {fileID: 2800000, guid: 36c8e531530a3ab4286893b3700f934f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: 03946c003aa6af24487193fd0eff20f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _noise:
+        m_Texture: {fileID: 2800000, guid: e31a867c87a3ed14c972bdf4ba1d6faf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _xiaosanmask:
+        m_Texture: {fileID: 2800000, guid: d74a1b9ecf3a10446983c0abc06aa6a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Hit: 0
+    - _Ice_duibidu: 2.45
+    - _Ice_glow: 1.47
+    - _Ice_texglow: 0.33
+    - _Tex_glow: 1.19646
+    - _Texandice: 0
+    - _hit_color_glow: 2
+    - _xiaosan: 5
+    m_Colors:
+    - _Ice_color: {r: 1, g: 1, b: 1, a: 1}
+    - _hit_color: {r: 0.990566, g: 0.4438857, b: 0.4438857, a: 1}
+    - _xiaosancolor: {r: 1, g: 0.2939665, b: 0, a: 1}

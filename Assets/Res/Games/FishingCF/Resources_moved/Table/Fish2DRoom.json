@@ -1,0 +1,5 @@
+[
+  {"Id":1,"Type":1,"RoomName":"海马迎新","Unlock":1,"MinGun":30,"MaxGun":300,"LimitMinCurrency":0,"SelectSeat":1},
+  {"Id":2,"Type":1,"RoomName":"海豚港湾","Unlock":300,"MinGun":300,"MaxGun":1000,"LimitMinCurrency":30000,"SelectSeat":1},
+  {"Id":3,"Type":1,"RoomName":"巨鲸领域","Unlock":1000,"MinGun":1000,"MaxGun":10000,"LimitMinCurrency":500000,"SelectSeat":1}
+]

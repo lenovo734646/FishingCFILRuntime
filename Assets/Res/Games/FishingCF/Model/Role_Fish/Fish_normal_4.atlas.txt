@@ -1,0 +1,90 @@
+
+Fish_normal_4.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_01
+  rotate: true
+  xy: 2, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_02
+  rotate: true
+  xy: 67, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_03
+  rotate: true
+  xy: 132, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_04
+  rotate: true
+  xy: 197, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_05
+  rotate: true
+  xy: 262, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_06
+  rotate: true
+  xy: 327, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_07
+  rotate: true
+  xy: 392, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_08
+  rotate: true
+  xy: 457, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_09
+  rotate: true
+  xy: 522, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_10
+  rotate: true
+  xy: 587, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_11
+  rotate: true
+  xy: 652, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+2_12
+  rotate: true
+  xy: 717, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1

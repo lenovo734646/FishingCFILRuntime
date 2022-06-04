@@ -1,0 +1,8 @@
+[
+  {"Id":1,"LoginType":"[1,2,3]","MainUI":"","GuildSwitch":0,"SMSTemplate":"11642855"},
+  {"Id":2,"LoginType":"[1,2,3]","MainUI":"","GuildSwitch":0,"SMSTemplate":"11642855"},
+  {"Id":3,"LoginType":"[1,2,3]","MainUI":"","GuildSwitch":0,"SMSTemplate":"11642855"},
+  {"Id":4,"LoginType":"[3]","MainUI":"MainUI_ZongHeng","GuildSwitch":1,"SMSTemplate":"11642855"},
+  {"Id":5,"LoginType":"[1,2,3]","MainUI":"","GuildSwitch":0,"SMSTemplate":"11642855"},
+  {"Id":6,"LoginType":"[1,2,3]","MainUI":"","GuildSwitch":0,"SMSTemplate":"11642855"}
+]

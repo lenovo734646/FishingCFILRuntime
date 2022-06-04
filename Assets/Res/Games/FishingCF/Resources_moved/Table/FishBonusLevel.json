@@ -1,0 +1,8 @@
+[
+  {"Id":1,"NeedBonusPool":1000,"PoolTypeName":"普通抽奖"},
+  {"Id":2,"NeedBonusPool":20000,"PoolTypeName":"青铜抽奖"},
+  {"Id":3,"NeedBonusPool":100000,"PoolTypeName":"白银抽奖"},
+  {"Id":4,"NeedBonusPool":200000,"PoolTypeName":"黄金抽奖"},
+  {"Id":5,"NeedBonusPool":400000,"PoolTypeName":"白金抽奖"},
+  {"Id":6,"NeedBonusPool":1200000,"PoolTypeName":"钻石抽奖"}
+]

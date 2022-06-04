@@ -1,0 +1,8 @@
+[
+  {"Id":1,"TaskName":"DailyTask_01","TaskNum":1,"TaskType":1,"ItemId":0,"ItemSubId":1,"ItemNum":2,"active":15},
+  {"Id":2,"TaskName":"DailyTask_02","TaskNum":20000,"TaskType":1,"ItemId":0,"ItemSubId":2,"ItemNum":1000,"active":20},
+  {"Id":3,"TaskName":"DailyTask_03","TaskNum":5,"TaskType":1,"ItemId":0,"ItemSubId":2,"ItemNum":1000,"active":20},
+  {"Id":4,"TaskName":"DailyTask_04","TaskNum":200,"TaskType":1,"ItemId":0,"ItemSubId":2,"ItemNum":1000,"active":25},
+  {"Id":5,"TaskName":"DailyTask_05","TaskNum":1,"TaskType":1,"ItemId":0,"ItemSubId":2,"ItemNum":1000,"active":20},
+  {"Id":6,"TaskName":"DailyTask_06","TaskNum":1,"TaskType":1,"ItemId":0,"ItemSubId":1,"ItemNum":5,"active":20}
+]

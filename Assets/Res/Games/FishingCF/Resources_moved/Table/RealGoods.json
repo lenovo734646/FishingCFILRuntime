@@ -1,0 +1,5 @@
+[
+  {"Id":1,"Name":"30元手机充值卡","Icon":"Ico_Real_Goods_00","Costs":"[[0,6,15000]]","VIPLimit":3,"BuyLimit":1},
+  {"Id":2,"Name":"50元手机充值卡","Icon":"Ico_Real_Goods_01","Costs":"[[0,6,25000]]","VIPLimit":3,"BuyLimit":1},
+  {"Id":3,"Name":"100元手机充值卡","Icon":"Ico_Real_Goods_02","Costs":"[[0,6,50000]]","VIPLimit":3,"BuyLimit":1}
+]
